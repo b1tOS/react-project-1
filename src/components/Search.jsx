@@ -38,6 +38,7 @@ class Search extends React.Component {
               className="btn waves-effect waves-light"
               name="submit"
               onClick={this.handleFilter}
+              value={this.state.filter}
             >
               Search
             </button>
