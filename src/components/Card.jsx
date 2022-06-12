@@ -17,7 +17,7 @@ const Card = (props) => {
       </div>
       <div className="card-content">
         <span className="card-title activator grey-text text-darken-4">
-          {props.title}
+          <a href={`https://www.imdb.com/title/${props.id}`}>{props.title}</a>
           <i className="material-icons right">{props.type}</i>
         </span>
         <p>{props.year}</p>

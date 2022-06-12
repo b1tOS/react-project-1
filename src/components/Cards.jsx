@@ -8,6 +8,7 @@ const Cards = (props) => {
     <div className="movies">
       {movies.map((movie) => (
         <Card
+          id={movie.imdbID}
           key={counter++}
           title={movie.Title}
           type={movie.Type}
