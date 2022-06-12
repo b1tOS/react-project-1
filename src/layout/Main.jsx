@@ -20,7 +20,7 @@ class Main extends React.Component {
 
   handleRequest = (searchString, filter) => {
     fetch(
-      `http://www.omdbapi.com/?apikey=${API_KEY}&s=${searchString}&type=${
+      `https://www.omdbapi.com/?apikey=${API_KEY}&s=${searchString}&type=${
         filter !== 'all' ? filter : ''
       }`
     )
