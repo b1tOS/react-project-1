@@ -34,7 +34,11 @@ class Search extends React.Component {
             />
           </div>
           <div className="input-field col s6">
-            <button className="btn waves-effect waves-light" name="submit">
+            <button
+              className="btn waves-effect waves-light"
+              name="submit"
+              onClick={this.handleFilter}
+            >
               Search
             </button>
           </div>
